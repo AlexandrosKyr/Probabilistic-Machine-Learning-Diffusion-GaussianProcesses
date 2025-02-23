@@ -37,7 +37,7 @@ This project explores **Denoising Diffusion Probabilistic Models (DDPMs)** and *
 - [Results for Gaussian Processes](#-results-gaussian-processes)
 ---
 
-## 📊 Quantitative Analysis of Diffusion Models
+## Quantitative Analysis of Diffusion Models
 
 This study explores **variations and extensions** of Denoising Diffusion Probabilistic Models (DDPMs), focusing on:
 - **Parameterizations**: Comparing target parameterizations (`ϵ`, `µ`, `x0`)  
@@ -46,7 +46,7 @@ This study explores **variations and extensions** of Denoising Diffusion Probabi
 
 ---
 
-## 🛠️ Code & Implementation
+## Code & Implementation
 This project builds on **UNET-based diffusion models** and extends them with **guided generation** and **continuous-time formulations**. 
 
 ✅ **Modified DDPM implementations** for `ϵ`, `µ`, `x0`  
@@ -56,7 +56,7 @@ This project builds on **UNET-based diffusion models** and extends them with **g
 
 ---
 
-## 📈 Results
+## Results
 
 ### **Quantitative Performance Comparison of Diffusion Models**
 
@@ -71,12 +71,12 @@ This project builds on **UNET-based diffusion models** and extends them with **g
 | **Classifier Guided**  | 55.26 ± 1.22       | 2.11 ± 0.02           | -24.5517 ± 0.3285              | 09:58                       |
 | **Classifier-Free**    | 56.10 ± 0.62       | 2.07 ± 0.03           | -24.3048 ± 0.2923              | 11:58                       |
 
-📝 **Key Observations**:  
+ **Key Observations**:  
 - **Classifier-guided diffusion produces higher-quality samples** with better **FID scores**.  
 - **Classifier-free diffusion** maintains diversity but performs slightly worse than classifier-guided.  
 - **Continuous-time SDE models (VP/VE/SubVP)** show promise for **more structured generative models**, but computational costs remain high.  
 
-## 📊 Function Fitting with Gaussian Processes (GPs)
+## Function Fitting with Gaussian Processes (GPs)
 
 In addition to diffusion models, this project explores **Gaussian Processes (GPs)** for function fitting with constraints.
 
@@ -96,7 +96,7 @@ In addition to diffusion models, this project explores **Gaussian Processes (GPs
 | **MAP GP** | 0.066                 | 1.641 ± 0.064      | **0.394 ± 3.821**        |
 | **NUTS GP** | 0.066                 | 1.842 ± 0.100      | **-2.345 ± 4.907**       |
 
-📌 **Key Findings:**
+**Key Findings:**
 - **MAP outperformed NUTS** in test log-likelihood but had higher variance.
 - **NUTS provided a broader posterior exploration**, useful for uncertainty quantification.
 - **Integral constraints reduced uncertainty in GP predictions**, improving interpretability.
