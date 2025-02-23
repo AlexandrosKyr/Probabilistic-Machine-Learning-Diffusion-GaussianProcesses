@@ -4,7 +4,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/AlexandrosKyr/Probabilistic-Machine-Learning-Diffusion-GaussianProcesses?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/AlexandrosKyr/Probabilistic-Machine-Learning-Diffusion-GaussianProcesses?style=social)
 
-## Based on Previous Work
+## Previous Work
 
 This project explores **Denoising Diffusion Probabilistic Models (DDPMs)** and **Gaussian Processes (GPs)** for generative modeling and function fitting. It builds upon the following foundational papers:
 
